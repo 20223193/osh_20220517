@@ -1,11 +1,11 @@
 # 오픈소스 소프트개론 과제 (2)
 ```
 1) 리눅스 명령어 (**top, ps, jobs, kill**) 에 대해서...
-2) ** VIm Editor** 의 매크로 명령어 (*q*) 에 대해서...
+2) ** Vim Editor** 의 매크로 명령어 (*q*) 에 대해서...
 ```
 ---
 ## 1) ***리눅스 명령어***
-+ **top**
++ (1) **top**
 : 시스템 프로세스/메모리 사용 현황을 실시간으로 출력하는 명령어
 
 --시스템의 상태를 전반적으로 가장 빠르게 파악 가능(CPU, Memory, Process)
@@ -25,7 +25,7 @@ b : Batch 모드로 작동
 
 ```
 *출처* : [리눅스 명령어 top](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background " top 명령어 ")
-+ **ps**
++ (2) **ps**
 : 현재 실행중인 프로세스를 목록을 보여주는 리눅스 명령어
 
 -- 주로 파이프라인, grep명령어와 함께 사용하여 특정 프로세스를 확인하는데 많이 사용된다.
@@ -46,7 +46,7 @@ x : 실행중인 모든 프로세스의 정보를 출력
 *출처* : [리눅스 명령어 ps](https://arer.tistory.com/150 "ps명령어")
 
 [리눅스 명령어 ps (2)](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background "ps명령어")
-+ **jobs**
++ (3) **jobs**
 :작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경 되었지만 보고되지 않은 상태 등을 표시하는 명령어다. (현재 세션의 작업 상태를 표시)
 
 ```
@@ -76,7 +76,7 @@ SIGTTOU 신호가 작업을 일시 중단했음을 나타낸다.
 
 [리눅스 명령어 jobs(2)](https://www.ibm.com/docs/ko/aix/7.2?topic=j-jobs-command " jobs 명령어")
 
-+ **kill**
++ (4) **kill**
 :프로세스에 특정한 *signal*을 보내는 명령어
 
 --- 일반적으로 종료되지 않는 프로세스를 종료 시킬 떄 많이 사용한다.
@@ -103,5 +103,12 @@ SIGTSTP : 키보드에 의해 발생하는 시그널
 *출처* : [리눅스 명령어 kill](https://bigsun84.tistory.com/355 " kill 명령어" )
 
 [리눅스 명령어 kill](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background " kill 명령어 " )
+## 2) ***Vim editor***의  매크로 명령어 (q)
++ **q**
+1) __같은 명령 반복 매크로__
+
+ (1) *q+a : a키에 recording시작
+ 
+ (2) q : recording 종료
 
 
