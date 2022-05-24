@@ -46,3 +46,36 @@ x : 실행중인 모든 프로세스의 정보를 출력
 *출처* : [리눅스 명령어 ps](https://arer.tistory.com/150 "ps명령어")
 
 [리눅스 명령어 ps (2)](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background "ps명령어")
++ **jobs**
+:작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경 되었지만 보고되지 않은 상태 등을 표시하는 명령어다.
+
+---
+---
+---
++ **kill**
+:프로세스에 특정한 *signal*을 보내는 명령어
+
+--- 일반적으로 종료되지 않는 프로세스를 종료 시킬 떄 많이 사용한다.
+```
+SIGHUP :
+SIGINT :
+SIGQUIT :
+SIGKILL : 
+SIGTRAP :
+SIGBUS :
+SIGFPE :
+SIGKILL :
+SIGSEGV :
+SIGPIPE :
+SIGTERM :
+SIGSTKELT :
+SIGCHLD :
+SIGCONT : 
+SIGTSTP :
+
+```
+*출처* : [리눅스 명령어 kill](https://bigsun84.tistory.com/355 " kill 명령어" )
+
+[리눅스 명령어 kill](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background " kill 명령어 " )
+
+
