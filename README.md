@@ -1,2 +1,1 @@
-# osh_20220517
-osh_20220517
+# OpenSource Soft task
