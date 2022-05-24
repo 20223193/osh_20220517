@@ -54,7 +54,7 @@ x : 실행중인 모든 프로세스의 정보를 출력
 -n : 최종 통지된 이후 중지 또는 종료한 작업만 표시한다.
 -p : 선택된 작업에 대한 프로세스 그룹 리더의 프로세스 ID를 표시한다.
 -----
-state : 다음 값 중 하나를 표시합니다(POSIX 로케일에서).
+state : 다음 값 중 하나를 표시합니다.
 Running
 작업이 신호에 의해 일시중단되지 않았으며 종료하지 않았음을 나타냅니다.
 Done
@@ -105,10 +105,14 @@ SIGTSTP : 키보드에 의해 발생하는 시그널
 [리눅스 명령어 kill](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background " kill 명령어 " )
 ## 2) ***Vim editor***의  매크로 명령어 (q)
 + **q**
-1) __같은 명령 반복 매크로__
-
+---
+ __같은 명령 반복 매크로__
+ 
+ [1]
+ 
  (1) *q+a : a키에 recording시작
  
- (2) q : recording 종료
+ (2) q : recording 종료  
 
+---
 
