@@ -8,9 +8,14 @@
 + **top**
 ```
 : 시스템 프로세스/메모리 사용 현황을 실시간으로 출력하는 명령어
-
-
-
+시스템의 상태를 전반적으로 가장 빠르게 파악 가능(CPU, Memory, Process)
+-----
+shift + p : CPU 사용률 내림차순으로 정리
+shift + m : 메모리 사용률 내림차순으로 정리
+shift + t : 프로세스가 돌아가고 있는 시간 순
+a : 메모리 사용량에 따라 정렬
+b : Batch 모드로 작동
+1 : CPU Core별로 사용량 보여줌
 ```
 *출처* : [리눅스 명령어 top](https://arer.tistory.com/150 "top 명령어")
 + **ps**
@@ -23,9 +28,13 @@
 -f : 프로세스에 대한 자세한 정보를 출력한다.(PPID 확인 가능
 -u [사용자이름] : 특정 사용자에 대한 모든 프로세스의 정보를 출력
 -p pid: pid로 지정한 프로세스의 정보를 출력
+- A : 모든 프로세스 출력 (-e) 와 동일
+
 -----
 u : 프로세스 소유자의 이름, CPU 사용량, 메모리 사용량 등 상세 정보를 출력
 a : 터미널에서 실행한 프로세스의 정보를 출력
 x : 실행중인 모든 프로세스의 정보를 출력
 ```
 *출처* : [리눅스 명령어 ps](https://arer.tistory.com/150 "ps명령어")
+
+[리눅스 명령어 ps (2)](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background "ps명령어")
