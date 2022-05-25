@@ -1,4 +1,4 @@
-# 오픈소스 소프트개론 과제 (2)
+# 오픈소스SW개론 Git hub 다루기 과제 (2)
 ```
 1) 리눅스 명령어 (**top, ps, jobs, kill**) 에 대해서...
 2) ** Vim Editor** 의 매크로 명령어 (*q*) 에 대해서...
@@ -83,8 +83,11 @@ SIGTTOU 신호가 작업을 일시 중단했음을 나타낸다.
 
 :프로세스에 특정한 *signal*을 보내는 명령어
 
---- 일반적으로 종료되지 않는 프로세스를 종료 시킬 떄 많이 사용한다.
+![캡처 4](https://user-images.githubusercontent.com/105439136/170161003-2a22dde8-8312-481b-a6f5-b120313a95d4.PNG)
+
+--- 일반적으로 종료되지 않는 프로스를 종료 시킬 떄 많이 사용한다.
 ```
+-l : 시그널 목록을 보는 방법
 SIGHUP : 연결 끊기, 프로세스의 설정파일을 다시 읽음
 SIGINT : 인터럽트
 SIGQUIT : 종료
@@ -102,9 +105,12 @@ SIGSCHLD : 자식 프로세서의 상태변화
 SIGCONT : STOP 시그널 이후 계속 진행할 떄 사용
 SIGSTOP : 정지
 SIGTSTP : 키보드에 의해 발생하는 시그널
-
+kill -15 PID : 작업종료
+kill -9 PID : 강제종료
 ```
 *출처* : [리눅스 명령어 kill](https://bigsun84.tistory.com/355 " kill 명령어" )
+
+[리눅스 명령어 kill](https://yurmu.tistory.com/12 " kill 명령어)
 
 [리눅스 명령어 kill](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background " kill 명령어 " )
 
@@ -147,4 +153,5 @@ _출처_ [vim editor 활용방법](https://stdout.tistory.com/46 " vim editor")
 " + 사용할 레지스터(a~z) + 명령어(d, y)  = 저장
 
 " + 저장해둔 레지스터(a~z) + 명령어(p, P) = 붙여넣기
+
 
